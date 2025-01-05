@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>Rock paper scissor</title>
+</head>
+
+<body>
+    <div class="rpsContainer">
+        <div class="rpsResults">
+            <h1 class="titleRps">Rock Paper Scissor</h1>
+            <div class="rpsImages">
+                <img class="animationImg" id="playerImg" src="img/Rock.png">
+                <div class="rpsScores">
+                    <div class="rpsPlayerBotScore">
+                        <label id="playerScore">0</label> -
+                        <label id="botScore">0</label>
+                    </div>
+                    <div>
+                        <button id="restartButton">Restart game</button>
+                    </div>
+                </div>
+                <img class="animationImg" id="botImg" src="img/Rock.png">
+            </div>
+            <div class="resultLabel">
+                <p>Player: <label id="playerResultLabel"></label></p>
+                <p>Result: <label id="finalResultLabel"></label></p>
+                <p>Bot: <label id="botResultLabel"></label></p>
+            </div>
+            <br>
+            <br>
+            <div class="playerButtonsContainer">
+                <button class="playerButtons" id="rockButton" value="Rock">Rock</button>
+                <button class="playerButtons" id="paperButton" value="Paper">Paper</button>
+                <button class="playerButtons" id="scissorButton" value="Scissor">Scissor</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

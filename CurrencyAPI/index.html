@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>Currency API</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Convert currency</h1>
+        <br>
+        <div class="currencyContainer">
+            <input id="inputNumber" type="number" step="0.01">
+            <select id="from">
+                <option value="EUR">EUR</option>
+                <option value="TRY">TRY</option>
+            </select>
+            <br>
+            <br>
+            <input id="result" disabled>
+            <select id="to">
+                <option value="EUR">EUR</option>
+                <option value="TRY">TRY</option>
+            </select>
+            <br>
+            <br>
+            <button id="buttonCurrency">Convert</button>
+            <br>
+            <br>
+        </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
